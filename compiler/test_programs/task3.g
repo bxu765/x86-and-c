@@ -1,0 +1,12 @@
+x = 1;
+y = 2;
+z = x + y;
+printcn z;
+a = y - x;
+printcn a;
+b = z * z;
+printcn b;
+c = b / y;
+printcn c;
+d = -c;
+printcn (c + d);

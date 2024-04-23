@@ -1,0 +1,11 @@
+mov $0x03, %r1
+mov $0x04, %r2
+neg %r1
+loop:
+add $0x01, %r1
+add %r2, %r0
+mov loop, %r3
+jump %r1, %r3
+neg %r2
+add %r2, %r0
+halt
